@@ -1,6 +1,6 @@
 version: 0.0
 os: linux
 files: 
-  - source: /
-    destination: /var/lib/tomcat8/webapps/game-deploy
+  - source: ./*.*
+    destination: /var/lib/tomcat8/webapps/
     overwrite: true
